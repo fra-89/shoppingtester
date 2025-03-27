@@ -15,7 +15,7 @@ public class ShoppingCart {
         float totalBill = 0.0f;
 
         while (true) {
-            System.out.println("Cosa vuoi acquistare? Ci sono: Apple, Banana, Bread, Milk, Eggs, Cheese, Chicken, Rice, Pasta e Tomato (Digita 'Complete' per terminare o 'Exit' per uscire)");
+            System.out.println("Cosa vuoi acquistare? Ci sono: Mele, Banane, Bread, Latte, Uova, Formaggio, Pollo, Riso, Pasta e Pomodoro (Digita 'Complete' per terminare o 'Exit' per uscire)");
             String inputItem = scanner.nextLine();
 
             if (inputItem.equalsIgnoreCase("Exit")) {
